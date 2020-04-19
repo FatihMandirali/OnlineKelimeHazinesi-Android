@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <string name="reklambanner1">ca-app-pub-8449130834114994/8566970799</string>
+    <string name="reklambanner2">ca-app-pub-8449130834114994/9991733100</string>
+    <string name="reklambanner3">ca-app-pub-8449130834114994/8486971947</string>
+    <string name="reklambanner4">ca-app-pub-8449130834114994/5860808605</string>
+    <string name="reklambanner5">ca-app-pub-8449130834114994/6276166603</string>
+    <string name="reklambanner6">ca-app-pub-8449130834114994/4963084937</string>
+    <string name="reklambanner7">ca-app-pub-8449130834114994/9798030096</string>
+    <string name="reklambanner8">ca-app-pub-8449130834114994/1159571291</string>
+    <string name="reklambanner9">ca-app-pub-8449130834114994/9608481921</string>
+    <string name="reklambanner10">ca-app-pub-8449130834114994/7533407959</string>
+    <string name="reklambanner11">ca-app-pub-8449130834114994/5587322341</string>
+    <string name="reklambanner12">ca-app-pub-8449130834114994/6980295065</string>
+    <string name="reklambanner13">ca-app-pub-8449130834114994/3594162942</string>
+    <string name="reklambanner14">ca-app-pub-8449130834114994/4771513246</string>
+    <string name="reklambanner15">ca-app-pub-8449130834114994/3458431579</string>
+
+    <string name="reklambannerdene">ca-app-pub-3940256099942544/6300978111</string>
+
+
+
+</resources>

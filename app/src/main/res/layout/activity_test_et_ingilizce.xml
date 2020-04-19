@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty_bg"
+    tools:context=".TestEtIngilizce">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineerReklamBanner12"
+        android:layout_centerHorizontal="true"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:id="@+id/btnSoruSayisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:weightSum="3"
+                >
+
+
+
+                <TextView
+                    android:id="@+id/TxtSoruSayisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soru : 0/10"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAlignment="center" />
+                <TextView
+                    android:id="@+id/TxtDogruSayisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doğru : 0"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAlignment="center" />
+
+
+                <TextView
+                    android:id="@+id/TxtYanlisSayisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yanlış : 0"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/btnTurkceKelime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                >
+
+
+
+                <TextView
+                    android:id="@+id/txtKelime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Türkçe - İngilizce Test"
+                    android:textColor="#6c7418"
+                    android:textSize="30sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnIngilizceTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="2"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_background"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnA"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="stsdfsdfsdfsdf"
+                        android:textColor="#6c7418"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_background"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnB"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="İngilizce - Türkçe Test"
+                        android:textColor="#6c7418"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="2"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_background"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnC"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="stsdfsdfsdfsdf"
+                        android:textColor="#6c7418"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_background"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btnD"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="İngilizce - Türkçe Test"
+                        android:textColor="#6c7418"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/lineerReklamBanner13"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"></LinearLayout>
+
+</RelativeLayout>

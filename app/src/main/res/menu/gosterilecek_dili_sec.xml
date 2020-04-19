@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".KelimeleriGor">
+
+    <item
+        android:id="@+id/GenelBilgiler"
+        android:title="Kişisel Bilgiler"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/Anasayfa"
+        android:title="Anasayfa"
+        android:orderInCategory="2"
+
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/KelimeEkle"
+        android:title="Kelime Ekle"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1050921913697",
+    "firebase_url": "https://ingilizcekelimehazinesi-c014b.firebaseio.com",
+    "project_id": "ingilizcekelimehazinesi-c014b",
+    "storage_bucket": "ingilizcekelimehazinesi-c014b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050921913697:android:eed49c2389062374",
+        "android_client_info": {
+          "package_name": "com.example.yabancidil_kelime_hazinesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050921913697-isgis8hfmp764d5sf8olhp7gg9p66vc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yabancidil_kelime_hazinesi",
+            "certificate_hash": "04de0a411db603c54ba9647d5e7cc8dd5e1ce899"
+          }
+        },
+        {
+          "client_id": "1050921913697-879285etb64ae4hfcdna0r3rgtcvvnb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACM2_BbyEELR3gZn1u79MahmU4F7ElUSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050921913697-879285etb64ae4hfcdna0r3rgtcvvnb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
